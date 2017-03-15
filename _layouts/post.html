@@ -1,0 +1,105 @@
+---
+layout: main
+---
+
+{% if page.categories contains 'Portee' %}
+<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<section>
+			<div class="10u -1u">
+				<header class="major">
+					<h2>Portées du {{ page.naissance | date_to_string }}</h2>
+				</header>
+				{% for post in site.categories.Chaton %}
+					{% if post.porteeId contains page.porteeId %}
+						<div class="row">
+							<div class="col-md-2">
+								<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
+							</div>
+							<div class="col-md-6">
+								<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
+								<ul>
+  								<li><b>Nom</b> : {{post.name}}</li>
+  								<li><b>Père</b> : {{post.pere}}</li>
+  								<li><b>Mère</b> : {{post.mere}}</li>
+									<li><a href="{{post.album}}">Album photos et videos</a></li>
+									<li><b>Sexe</b> : {{post.sexe}}</li>
+									<li><b>Couleur</b> : {{post.couleur}}</li>
+									{% if post.option%}
+										<span class="tag tag-default"> Option </span>
+									{% endif %}
+									{% if post.reserve%}
+										<span class="tag tag-default"> Réservé </span>
+									{% endif %}
+									{% if post.vendu%}
+										<span class="tag tag-default"> Vendu </span>
+									{% endif %}
+								</ul>
+							</div>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+			<!--</ul>-->
+		</div>
+	</section>
+</div>
+</div>
+
+{% elsif page.categories contains 'Male' or page.categories contains 'Femelle' or page.categories contains 'Chaton' %}
+	<!-- Main -->
+		<div id="main" class="wrapper style1">
+			<div class="container">
+				<section>
+					<header class="major">
+						<h2>{{ page.title }}</h2>
+					</header>
+					<div class="row">
+						<div class="col-md-2">
+							<img src="{{ site.baseurl }}/photos/{{ page.photo }}" class="img-circle" alt="" width="500">
+						</div>
+						<div class="col-md-6">
+							<a href="{{ site.baseurl }}{{ page.url }}"><h2>Naissance : {{ page.naissance | date_to_string }}</h2></a>
+							<ul>
+								<li><b>Nom</b> : {{page.name}}</li>
+								{% if page.categories contains 'Chaton' %}
+									<li><b>Père</b> : {{page.pere}}</li>
+									<li><b>Mère</b> : {{page.mere}}</li>
+								{% endif %}
+								<li><a href="{{page.album}}">Album photos et videos</a></li>
+								<li><b>Sexe</b> : {{page.sexe}}</li>
+								<li><b>Couleur</b> : {{page.couleur}}</li>
+								{% if page.categories contains 'Chaton' %}
+									{% if page.option%}
+										<span class="tag-default"> Option </span>
+									{% endif %}
+									{% if page.reserve%}
+										<span class="tag-default"> Réservé </span>
+									{% endif %}
+									{% if page.vendu%}
+										<span class="tag-default"> Vendu </span>
+									{% endif %}
+								{% endif %}
+							</ul>
+						</div>
+					</div>
+					{{ page.content }}
+				</section>
+			</div>
+		</div>
+	{% else %}
+		<!-- Main -->
+			<div id="main" class="wrapper style1">
+				<div class="container">
+					<section>
+						<header class="major">
+							<h2>{{ page.title }}</h2>
+							<span class="byline">{{ page.date | date_to_string }}</span>
+						</header>
+						<img src="{{ site.baseurl }}/photos/{{ page.photo}}" alt="" width="400">
+						{{ page.content }}
+					</section>
+				</div>
+			</div>
+	{% endif %}

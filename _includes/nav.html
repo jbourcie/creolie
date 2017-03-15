@@ -1,0 +1,21 @@
+<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% assign current = page.url | downcase | split: '/' %}
+			<!--<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Accueil</a></li>-->
+			<li {% if current[1] == 'chatterie.html' %}class='current'{% endif %}>
+				<a href="">Chatterie</a>
+				<ul>
+					<li><a href="{{ site.baseurl }}/presentation.html">Presentation</a></li>
+					<li><a href="{{ site.baseurl }}/reproduction.html">Reproduction</a></li>
+					<li><a href="{{ site.baseurl }}/sante.html">Santé</a></li>
+					<li><a href="{{ site.baseurl }}/nourriture.html">Nourriture</a></li>
+					<li><a href="{{ site.baseurl }}/tarifs.html">Vente et Tarif</a></li>
+				</ul>
+			</li>
+			<li {% if current[1] == 'males.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/males.html">Males</a></li>
+			<li {% if current[1] == 'femelles.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/femelles.html">Femelles</a></li>
+			<li {% if current[1] == 'portees.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/portees.html">Portées</a></li>
+			<li {% if current[1] == 'contact.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+		</ul>
+	</nav>

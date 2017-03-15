@@ -1,0 +1,63 @@
+---
+title: Nos Portées
+layout: main
+---
+
+<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<section>
+			<div class="10u -1u">
+				<header class="major">
+					<h2>Portées</h2>
+					<span class="byline">Nos portées de chatons</span>
+				</header>
+				<!--<ul class="style">-->
+				{% for post in site.categories.Portee%}
+					{% assign chatons = 0 %}
+					{% assign males = 0 %}
+					{% assign femelles = 0 %}
+					{% assign femelles_reserve = 0 %}
+					{% assign males_reserve = 0 %}
+
+					{% for post_chaton in site.categories.Chaton %}
+						{% if post_chaton.porteeId contains post.porteeId %}
+							{% assign chatons = chatons | plus:1 %}
+							{% if post_chaton.sexe contains 'Femelle' %}
+								{% assign femelles = femelles | plus:1 %}
+								{% if post_chaton.reserve%}
+									{% assign femelles_reserve = femelles_reserve | plus:1 %}
+								{% endif %}
+							{% endif %}
+							{% if post_chaton.sexe contains 'Male' %}
+								{% assign males = males | plus:1 %}
+								{% if post_chaton.reserve%}
+									{% assign males_reserve = males_reserve | plus:1 %}
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+
+					<div class="row">
+						<div class="col-md-2">
+							<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
+						</div>
+						<div class="col-md-6">
+							<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
+							<ul>
+								<li><b>Père</b> : {{post.pere}}</li>
+								<li><b>Mère</b> : {{post.mere}}</li>
+								<li><b>Nombre de chatons</b> : {{chatons}}</li>
+								<li><b>Femelles</b> : <b>{{femelles | minus:femelles_reserve}}</b>/{{femelles}} disponibles</li>
+								<li><b>Mâles</b> : <b>{{males | minus:males_reserve}}</b>/{{males}} disponibles</li>
+							</ul>
+						</div>
+					</div>
+
+				{% endfor %}
+			</div>
+			<!--</ul>-->
+		</div>
+	</section>
+</div>
+</div>

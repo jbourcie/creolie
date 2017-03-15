@@ -1,0 +1,38 @@
+---
+title: Nos femelles
+layout: main
+---
+
+<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<section>
+			<div class="10u -1u">
+				<header class="major">
+					<h2>Femelles</h2>
+					<span class="byline">Nos femelles reproductrices</span>
+				</header>
+				<!--<ul class="style">-->
+				{% for post in site.categories.Femelle%}
+
+					<div class="row">
+						<div class="col-md-2">
+							<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
+						</div>
+						<div class="col-md-6">
+							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{post.name}}</h2></a>
+							<ul>
+								<li>Naissance : {{ post.naissance | date_to_string }}</li>
+								<li>Couleur : {{post.couleur}}</li>
+								<li><a href="{{post.album}}">Album photos et videos</a></li>
+							</ul>
+						</div>
+					</div>
+
+				{% endfor %}
+			</div>
+			<!--</ul>-->
+		</div>
+	</section>
+</div>
+</div>
