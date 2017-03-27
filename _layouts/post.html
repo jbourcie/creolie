@@ -85,6 +85,15 @@ layout: main
 						</div>
 					</div>
 					{{ page.content }}
+					{% if page.photos%}
+						<div class="row">
+						{% for photo in page.photos %}
+							<div class="col-md-2">
+								<img src="{{ site.baseurl }}/photos/{{ photo }}" class="img-circle" alt="" width="500">
+							</div>
+						{% endfor %}
+					</div>
+					{% endif %}
 				</section>
 			</div>
 		</div>
