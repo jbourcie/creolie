@@ -7,7 +7,7 @@ tags: Chaton
 pere : Lipton de Berezay
 mere : Lollipop des Cats Poutis
 naissance: 2016-04-17
-photo: lollipop.jpg
+photo: maia.jpg
 sexe : Femelle
 porteeId : Portee01
 reserve : true

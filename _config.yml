@@ -3,7 +3,8 @@ email: jessica.bourcier@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   La chatterie Creolie vous propose de magnifique et effectueux Maine Coon
 baseurl: '/creolie' # the subpath of your site, e.g. /blog/
-url: "https://gemoc.github.io" # the base hostname & protocol for your site
+url: "https://jbourcie.github.io/creolie" # the base hostname & protocol for your site
 #paginate: 10
 
 #gems: [jekyll-paginate]
+gems: [jekyll-sitemap]
