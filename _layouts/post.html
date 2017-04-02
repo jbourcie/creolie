@@ -13,11 +13,11 @@ layout: main
 				</header>
 				{% for post in site.categories.Chaton %}
 					{% if post.porteeId contains page.porteeId %}
-						<div class="row">
-							<div class="col-md-2">
-								<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
-							</div>
-							<div class="col-md-6">
+					<div class="row  no-collapse-1" >
+						<section class="5u">
+								<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="100%">
+							</section>
+							<section class="5u">
 								<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
 								<ul>
   								<li><b>Nom</b> : {{post.name}}</li>
@@ -36,7 +36,7 @@ layout: main
 										<span class="tag tag-default"> Vendu </span>
 									{% endif %}
 								</ul>
-							</div>
+							</section>
 						</div>
 					{% endif %}
 				{% endfor %}
@@ -52,14 +52,15 @@ layout: main
 		<div id="main" class="wrapper style1">
 			<div class="container">
 				<section>
+					<div class="10u -1u">
 					<header class="major">
 						<h2>{{ page.title }}</h2>
 					</header>
-					<div class="row">
-						<div class="col-md-2">
-							<img src="{{ site.baseurl }}/photos/{{ page.photo }}" class="img-circle" alt="" width="500">
-						</div>
-						<div class="col-md-6">
+					<div class="row no-collapse-1" >
+						<section class="5u">
+							<img src="{{ site.baseurl }}/photos/{{ page.photo }}" class="img-circle" alt="" width="100%">
+						</section>
+						<section class="5u">
 							<a href="{{ site.baseurl }}{{ page.url }}"><h2>Naissance : {{ page.naissance | date_to_string }}</h2></a>
 							<ul>
 								<li><b>Nom</b> : {{page.name}}</li>
@@ -82,18 +83,19 @@ layout: main
 									{% endif %}
 								{% endif %}
 							</ul>
-						</div>
+						</section>
 					</div>
 					{{ page.content }}
 					{% if page.photos%}
-						<div class="row">
+						<div class="row no-collapse-1" >
 						{% for photo in page.photos %}
-							<div class="col-md-2">
-								<img src="{{ site.baseurl }}/photos/{{ photo }}" class="img-circle" alt="" width="500">
-							</div>
+							<section class="5u">
+								<img src="{{ site.baseurl }}/photos/{{ photo }}" class="img-circle" alt="" width="100%">
+							</section>
 						{% endfor %}
 					</div>
 					{% endif %}
+				</div>
 				</section>
 			</div>
 		</div>
@@ -106,7 +108,11 @@ layout: main
 							<h2>{{ page.title }}</h2>
 							<span class="byline">{{ page.date | date_to_string }}</span>
 						</header>
-						<img src="{{ site.baseurl }}/photos/{{ page.photo}}" alt="" width="400">
+						<div class="row no-collapse-1" >
+							<section class="5u">
+								<img src="{{ site.baseurl }}/photos/{{ page.photo}}" alt="" width="100%">
+							</section>
+						</div>
 						{{ page.content }}
 					</section>
 				</div>

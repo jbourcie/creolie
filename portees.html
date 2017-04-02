@@ -38,11 +38,11 @@ layout: main
 						{% endif %}
 					{% endfor %}
 
-					<div class="row">
-						<div class="col-md-2">
-							<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
-						</div>
-						<div class="col-md-6">
+					<div class="row  no-collapse-1" >
+						<section class="5u">
+							<a href="{{ site.baseurl }}{{ post.url }}" class="image feature"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt=""  width="100%"></a>
+						</section>
+						<section class="5u">
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
 							<ul>
 								<li><b>Père</b> : {{post.pere}}</li>
@@ -51,7 +51,7 @@ layout: main
 								<li><b>Femelles</b> : <b>{{femelles | minus:femelles_reserve}}</b>/{{femelles}} disponibles</li>
 								<li><b>Mâles</b> : <b>{{males | minus:males_reserve}}</b>/{{males}} disponibles</li>
 							</ul>
-						</div>
+						</section>
 					</div>
 
 				{% endfor %}

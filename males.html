@@ -14,19 +14,19 @@ layout: main
 				<!--<ul class="style">-->
 				{% for post in site.categories.Male%}
 
-					<div class="row">
-						<div class="col-md-2">
-							<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="500">
-						</div>
-						<div class="col-md-6">
+				<div class="row  no-collapse-1" >
+					<section class="5u">
+							<a href="{{ site.baseurl }}{{ post.url }}" class="image feature"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="100%"></a>
+					</section>
+					<section class="5u">
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{post.name}}</h2></a>
 							<ul>
 								<li>Naissance : {{ post.naissance | date_to_string }}</li>
 								<li>Couleur : {{post.couleur}}</li>
 								<li><a href="{{post.album}}">Album photos et videos</a></li>
 							</ul>
-						</div>
-					</div>
+					</section>
+				</div>
 
 				{% endfor %}
 			</div>
