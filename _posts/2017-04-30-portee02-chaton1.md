@@ -7,7 +7,7 @@ tags: Chaton
 pere : Lipton de Berezay
 mere : Miami
 naissance: 2017-04-06
-photo: portee02.jpg
+photos: [portee02Chaton1.jpg, portee02Chaton1-1.jpg, portee02Chaton1-2.jpg, portee02Chaton1-3.jpg, portee02Chaton1-4.jpg]
 sexe : Male
 porteeId : Portee02
 reserve : false
