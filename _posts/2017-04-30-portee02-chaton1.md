@@ -1,8 +1,8 @@
 ---
-title: Chaton né le 06/04/2017
+title: Chaton né le 27/04/2017
 layout: post
 categories: Chaton
-date: 2016-11-03 08:00:00
+date: 2017-05-27 08:00:00
 tags: Chaton
 pere : Lipton de Berezay
 mere : Miami
@@ -14,8 +14,9 @@ reserve : false
 option : false
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
-couleur : A déterminer
+couleur : Black Silver Mackerell Tabby
 name : A définir
+photo : portee02Chaton1-4.jpg
 ---
 
 Un adorable chaton est né le 06/04/2017

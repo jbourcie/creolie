@@ -7,15 +7,16 @@ tags: Chaton
 pere : Lipton de Berezay
 mere : Miami
 naissance: 2017-04-06
-photo: portee02.jpg
-sexe : Male
+photo: portee02Chaton2.jpg
+sexe : Femelle
 porteeId : Portee02
 reserve : false
 option : false
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
-couleur : A déterminer
+couleur : Black Silver Blotched Tabby
 name : A définir
+photos: [portee02Chaton2.jpg, portee02Chaton2-1.jpg]
 ---
 
 Un adorable chaton est né le 06/04/2017
