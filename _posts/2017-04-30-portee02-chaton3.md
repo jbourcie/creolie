@@ -16,7 +16,7 @@ vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Blotched Tabby et Blanc
 name : A définir
-photos: [portee02Chaton3.jpg, portee02Chaton3-1.jpg, portee02Chaton3-2.jpg, portee02Chaton3-3.jpg]
+photos: [portee02Chaton3.jpg, portee02Chaton3-1.jpg]
 ---
 
 Un adorable chaton est né le 06/04/2017
