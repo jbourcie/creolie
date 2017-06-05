@@ -10,12 +10,12 @@ naissance: 2017-04-06
 photo: portee02Chaton2.jpg
 sexe : Femelle
 porteeId : Portee02
-reserve : false
+reserve : true
 option : true
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Blotched Tabby
-name : A définir
+name : Naïka
 photos: [portee02Chaton2.jpg, portee02Chaton2-1.jpg]
 ---
 

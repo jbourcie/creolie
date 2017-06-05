@@ -15,7 +15,7 @@ option : true
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Blotched Tabby et Blanc
-name : A définir
+name : New York
 photos: [portee02Chaton3.jpg, portee02Chaton3-1.jpg]
 ---
 
