@@ -10,12 +10,12 @@ naissance: 2017-04-06
 photo: portee02Chaton5.jpg
 sexe : Male
 porteeId : Portee02
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Blotched Tabby
-name : A définir
+name : Nasco
 photos: [portee02Chaton5.jpg, portee02Chaton5-1.jpg, portee02Chaton5-2.jpg, portee02Chaton5-3.jpg]
 ---
 

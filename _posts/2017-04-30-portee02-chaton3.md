@@ -10,7 +10,7 @@ naissance: 2017-04-06
 photo: portee02Chaton3.jpg
 sexe : Male
 porteeId : Portee02
-reserve : false
+reserve : true
 option : true
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8

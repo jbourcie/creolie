@@ -10,12 +10,12 @@ naissance: 2017-04-06
 photos: [portee02Chaton1.jpg, portee02Chaton1-1.jpg, portee02Chaton1-2.jpg, portee02Chaton1-3.jpg, portee02Chaton1-4.jpg]
 sexe : Male
 porteeId : Portee02
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Mackerell Tabby
-name : A définir
+name : Nemo
 photo : portee02Chaton1-4.jpg
 ---
 
