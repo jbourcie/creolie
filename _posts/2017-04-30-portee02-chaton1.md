@@ -12,7 +12,7 @@ sexe : Male
 porteeId : Portee02
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Mackerell Tabby
 name : Nemo

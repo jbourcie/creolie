@@ -14,8 +14,8 @@ reserve : false
 option : false
 vendu : false
 album :
-couleur : A déterminer
-name : A définir
+couleur : Black Smoke
+name : Neptune
 photo : portee03Chaton1.jpg
 ---
 

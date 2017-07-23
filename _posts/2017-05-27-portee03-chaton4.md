@@ -14,8 +14,8 @@ reserve : false
 option : false
 vendu : false
 album :
-couleur : A déterminer
-name : A définir
+couleur : Black Smoke
+name : Nell
 photo : portee03Chaton4.jpg
 ---
 

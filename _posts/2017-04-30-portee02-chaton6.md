@@ -15,7 +15,7 @@ option : false
 vendu : false
 album : https://goo.gl/photos/p58K7MTk59v6ZF8b8
 couleur : Black Silver Blotched Tabby
-name : A définir
+name : Naïa
 photos: [portee02Chaton6.jpg, portee02Chaton6-1.jpg, portee02Chaton6-2.jpg]
 ---
 

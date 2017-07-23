@@ -10,12 +10,12 @@ naissance: 2017-04-27
 photos: [portee03Chaton2.jpg]
 sexe : Male
 porteeId : Portee03
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album :
-couleur : A déterminer
-name : A définir
+couleur : Black Silver Blotched Tabby
+name : Newton
 photo : portee03Chaton2.jpg
 ---
 
