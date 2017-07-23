@@ -13,7 +13,7 @@ porteeId : Portee03
 reserve : true
 option : true
 vendu : true
-album :
+album : https://photos.app.goo.gl/7yGuWBwPxsFvSMEp2
 couleur : Black Silver Blotched Tabby
 name : Newton
 photo : portee03Chaton2.jpg

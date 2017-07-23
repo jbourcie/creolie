@@ -13,9 +13,9 @@ porteeId : Portee03
 reserve : false
 option : false
 vendu : false
-album : Nanouk
+album : https://photos.app.goo.gl/7fR2N0uLf6yA6dQI3
 couleur : Black Smoke
-name : A définir
+name : Nanouk
 photo : portee03Chaton3.jpg
 ---
 
