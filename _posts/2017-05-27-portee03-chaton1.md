@@ -10,9 +10,9 @@ naissance: 2017-04-27
 photos: [portee03Chaton1.jpg, portee03Chaton1-1.jpg]
 sexe : Male
 porteeId : Portee03
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://photos.app.goo.gl/7yGuWBwPxsFvSMEp2
 couleur : Black Smoke
 name : Neptune
