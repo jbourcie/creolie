@@ -10,8 +10,8 @@ naissance: 2017-05-16
 photos: [portee04Chaton1.jpg, portee04Chaton1-1.jpg, portee04Chaton1-2.jpg, portee04Chaton1-3.jpg]
 sexe : Femelle
 porteeId : Portee04
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://goo.gl/photos/HvUoHRr7V3Z1jpA77
 couleur : Black Smoke

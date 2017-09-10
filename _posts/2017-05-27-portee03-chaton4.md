@@ -10,9 +10,9 @@ naissance: 2017-04-27
 photos: [portee03Chaton4.jpg]
 sexe : Femelle
 porteeId : Portee03
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://goo.gl/photos/YmvnKC3N1jNizZkn9
 couleur : Black Smoke
 name : Nell
