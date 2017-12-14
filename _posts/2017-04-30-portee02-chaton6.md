@@ -10,9 +10,9 @@ naissance: 2017-04-06
 photo: portee02Chaton6.jpg
 sexe : Femelle
 porteeId : Portee02
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://goo.gl/photos/R1mHdNwq2ytdbiEK9
 couleur : Black Silver Blotched Tabby
 name : Naïa

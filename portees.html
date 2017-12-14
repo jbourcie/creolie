@@ -10,7 +10,7 @@ layout: main
 			<div class="10u -1u">
 				<header class="major">
 					<h2>Portées</h2>
-					<span class="byline">Nos portées de chatons</span>
+					<span class="byline">Nos portées disponibles de chatons</span>
 				</header>
 				<!--<ul class="style">-->
 				{% for post in site.categories.Portee%}
@@ -37,25 +37,82 @@ layout: main
 							{% endif %}
 						{% endif %}
 					{% endfor %}
+					{% assign males_dispo = males | minus:males_reserve %}
+					{% assign femelles_dispo = femelles | minus:femelles_reserve %}
 
-					<div class="row  no-collapse-1" >
-						<section class="5u">
-							<a href="{{ site.baseurl }}{{ post.url }}" class="image feature"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt=""  width="100%"></a>
-						</section>
-						<section class="5u">
-							<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
-							<ul>
-								<li><b>Père</b> : {{post.pere}}</li>
-								<li><b>Mère</b> : {{post.mere}}</li>
-								<li><b>Nombre de chatons</b> : {{chatons}}</li>
-								<li><b>Femelles</b> : <b>{{femelles | minus:femelles_reserve}}</b>/{{femelles}} disponibles</li>
-								<li><b>Mâles</b> : <b>{{males | minus:males_reserve}}</b>/{{males}} disponibles</li>
-							</ul>
-						</section>
-					</div>
+					{% if femelles_dispo>0 or males_dispo>0 %}
+						<div class="row  no-collapse-1" >
+							<section class="5u">
+								<a href="{{ site.baseurl }}{{ post.url }}" class="image feature"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt=""  width="100%"></a>
+							</section>
+							<section class="5u">
+								<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
+								<ul>
+									<li><b>Père</b> : {{post.pere}}</li>
+									<li><b>Mère</b> : {{post.mere}}</li>
+									<li><b>Nombre de chatons</b> : {{chatons}}</li>
+									<li><b>Femelles</b> : <b>{{femelles | minus:femelles_reserve}}</b>/{{femelles}} disponibles</li>
+									<li><b>Mâles</b> : <b>{{males | minus:males_reserve}}</b>/{{males}} disponibles</li>
+								</ul>
+							</section>
+						</div>
+					{% endif %}
 
 				{% endfor %}
-				
+
+			</div>
+			<div class="10u -1u">
+				<header class="major">
+					<span class="byline">Nos portées passées</span>
+				</header>
+				<!--<ul class="style">-->
+				{% for post in site.categories.Portee%}
+					{% assign chatons = 0 %}
+					{% assign males = 0 %}
+					{% assign femelles = 0 %}
+					{% assign femelles_reserve = 0 %}
+					{% assign males_reserve = 0 %}
+
+					{% for post_chaton in site.categories.Chaton %}
+						{% if post_chaton.porteeId contains post.porteeId %}
+							{% assign chatons = chatons | plus:1 %}
+							{% if post_chaton.sexe contains 'Femelle' %}
+								{% assign femelles = femelles | plus:1 %}
+								{% if post_chaton.reserve%}
+									{% assign femelles_reserve = femelles_reserve | plus:1 %}
+								{% endif %}
+							{% endif %}
+							{% if post_chaton.sexe contains 'Male' %}
+								{% assign males = males | plus:1 %}
+								{% if post_chaton.reserve%}
+									{% assign males_reserve = males_reserve | plus:1 %}
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+					{% assign males_dispo = males | minus:males_reserve %}
+					{% assign femelles_dispo = femelles | minus:femelles_reserve %}
+
+					{% if femelles_dispo==0 and males_dispo==0 %}
+						<div class="row  no-collapse-1" >
+							<section class="5u">
+								<a href="{{ site.baseurl }}{{ post.url }}" class="image feature"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt=""  width="100%"></a>
+							</section>
+							<section class="5u">
+								<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
+								<ul>
+									<li><b>Père</b> : {{post.pere}}</li>
+									<li><b>Mère</b> : {{post.mere}}</li>
+									<li><b>Nombre de chatons</b> : {{chatons}}</li>
+									<li><b>Femelles</b> : <b>{{femelles | minus:femelles_reserve}}</b>/{{femelles}} disponibles</li>
+									<li><b>Mâles</b> : <b>{{males | minus:males_reserve}}</b>/{{males}} disponibles</li>
+								</ul>
+							</section>
+						</div>
+					{% endif %}
+
+				{% endfor %}
+
 			</div>
 			<!--</ul>-->
 		</div>
