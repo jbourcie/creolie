@@ -9,7 +9,7 @@ url: "http://creolie.fr" # the base hostname & protocol for your site
 #gems: [jekyll-paginate]
 gems: [jekyll-sitemap, jekyll-seo-tag]
 
-prix: 900
+prix: 950
 siret: 830 192 472 00017
 affixe: De Créolie
 CCADDate: 27/11/2016
