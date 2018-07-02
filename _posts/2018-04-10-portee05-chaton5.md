@@ -10,12 +10,12 @@ naissance: 2018-04-10
 photos: [portee05.jpg]
 sexe : Femelle
 porteeId : Portee05
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://photos.app.goo.gl/TpMWiK5oc9uHCosf1
-couleur : A déterminer
-name : A déterminer
+couleur : Black Smoke
+name : Ohana
 photo : portee05.jpg
 ---
 

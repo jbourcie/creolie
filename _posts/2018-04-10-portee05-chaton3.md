@@ -10,12 +10,12 @@ naissance: 2018-04-10
 photos: [portee05.jpg]
 sexe : Male
 porteeId : Portee05
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://photos.app.goo.gl/TpMWiK5oc9uHCosf1
-couleur : A déterminer
-name : A déterminer
+couleur : Black Silver Blotched Tabby
+name : Onyx
 photo : portee05.jpg
 ---
 

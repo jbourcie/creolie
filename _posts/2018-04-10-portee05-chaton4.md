@@ -12,10 +12,10 @@ sexe : Femelle
 porteeId : Portee05
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/TpMWiK5oc9uHCosf1
-couleur : A déterminer
-name : A déterminer
+couleur : Blue Silver Blotched Tabby
+name : Olie
 photo : portee05.jpg
 ---
 
