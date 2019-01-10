@@ -10,8 +10,8 @@ naissance: 2018-11-13
 photos: [portee06.jpg, portee06Chaton1.jpg, portee06Chaton1_1.jpg,portee06Chaton1_2.jpg]
 sexe : Male
 porteeId : Portee06
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://photos.app.goo.gl/xigLMut79toEzx2h9
 couleur : Black Silver blotched Tabby
