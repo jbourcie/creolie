@@ -12,7 +12,7 @@ sexe : Male
 porteeId : Portee08
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/XGrJBg5xG7XSPDae6
 couleur : Blue Silver blotched Tabby et Blanc
 name : Paco

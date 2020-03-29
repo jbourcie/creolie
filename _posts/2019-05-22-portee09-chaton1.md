@@ -10,13 +10,13 @@ naissance: 2019-05-26
 photos: [portee09.jpg, portee09_1.jpg, portee09_02.jpg,portee09_03.jpg]
 sexe : Femelle
 porteeId : Portee09
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://photos.app.goo.gl/xzCLLpBxC3yk22ej8
 couleur : Noir et Blanc
 name : Pandora
 photo : portee09.jpg
 ---
 
-Pandora, une adorable petite minette noire à chaussettes blanches est né le 26/05/2019.
+Pandora, une adorable petite minette noire à chaussettes blanches est né le 26/05/2019. Nous l'avons gardé à l'élevage.
