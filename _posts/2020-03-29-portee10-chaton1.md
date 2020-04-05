@@ -11,7 +11,7 @@ photos: [portee10.jpg, portee10_1.jpg, portee10_02.jpg, portee10_03.jpg, portee1
 sexe : Male
 porteeId : Portee10
 reserve : false
-option : false
+option : true
 vendu : false
 album : https://photos.app.goo.gl/Q1GZDfZAmcPfctLt8
 couleur : Blue Smoke
