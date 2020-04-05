@@ -8,7 +8,7 @@ pere : New York de Créolie
 mere : Lollipop des Cats Poutis
 naissance: 2020-03-10
 photos: [portee11_3_1.jpg, portee11_3_2.jpg, portee11_3_3.jpg, portee11_3_4.jpg, portee11_3_5.jpg, portee11_3_6.jpg, portee11_3_7.jpg]
-sexe : femelle
+sexe : Femelle
 porteeId : Portee11
 reserve : false
 option : false
