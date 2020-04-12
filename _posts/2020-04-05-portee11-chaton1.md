@@ -1,5 +1,5 @@
 ---
-title: Roumba est née le 10/03/2020
+title: Rumba est née le 10/03/2020
 layout: post
 categories: Chaton
 date: 2020-04-05 08:00:00
@@ -15,8 +15,8 @@ option : false
 vendu : false
 album : https://photos.app.goo.gl/dxqN3UrUY92FsuAa9
 couleur : Black Blotched Tabby
-name : Roumba
+name : Rumba
 photo : portee11_1_1.jpg
 ---
 
-Roumba est une adorable petite minette Black Blotched Tabby née le 10/03/2020.
+Rumba est une adorable petite minette Black Blotched Tabby née le 10/03/2020.
