@@ -1,5 +1,5 @@
 ---
-title: Chaton né le 10/03/2020
+title: R'mione est née le 10/03/2020
 layout: post
 categories: Chaton
 date: 2020-04-05 08:00:00
@@ -15,8 +15,8 @@ option : false
 vendu : false
 album : https://photos.app.goo.gl/s1Zd3R33RAdfj5qa8
 couleur : Black Silver Blotched Tabby et Blanc
-name : A définir
+name : R'mione
 photo : portee11_4_1.jpg
 ---
 
-Une adorable petite minette Black Silver Blotched Tabby et Blanc est né le 10/03/2020.
+R'mione est une adorable petite minette Black Silver Blotched Tabby et Blanc est née le 10/03/2020.

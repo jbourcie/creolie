@@ -1,5 +1,5 @@
 ---
-title: Chaton né le 10/03/2020
+title: Réglisse est née le 10/03/2020
 layout: post
 categories: Chaton
 date: 2020-04-05 08:00:00
@@ -15,8 +15,8 @@ option : false
 vendu : false
 album : https://photos.app.goo.gl/9dXdSRPueM6dBrd37
 couleur : Noir et Blanc
-name : A définir
+name : Réglisse
 photo : portee11_3_1.jpg
 ---
 
-Une adorable petite minette Noir et Blanche est né le 10/03/2020.
+Réglisse est une adorable petite minette Noir et Blanche née le 10/03/2020.

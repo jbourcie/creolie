@@ -1,5 +1,5 @@
 ---
-title: Chaton né le 10/03/2020
+title: Roxie est née le 10/03/2020
 layout: post
 categories: Chaton
 date: 2020-04-05 08:00:00
@@ -15,8 +15,8 @@ option : false
 vendu : false
 album : https://photos.app.goo.gl/WCmX9Rmzyo59QBH87
 couleur : Black Blotched Tabby
-name : A définir
+name : Roxie
 photo : portee11_2_1.jpg
 ---
 
-Une adorable petite minette Black Blotched Tabby est né le 10/03/2020.
+Roxie est une adorable petite minette Black Blotched Tabby née le 10/03/2020.
