@@ -11,7 +11,7 @@ photos: [portee11_2_1.jpg, portee11_2_2.jpg, portee11_2_3.jpg, portee11_2_4.jpg,
 sexe : Femelle
 porteeId : Portee11
 reserve : false
-option : false
+option : true
 vendu : false
 album : https://photos.app.goo.gl/WCmX9Rmzyo59QBH87
 couleur : Black Blotched Tabby
