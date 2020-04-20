@@ -11,7 +11,7 @@ photos: [portee11_3_1.jpg, portee11_3_2.jpg, portee11_3_3.jpg, portee11_3_4.jpg,
 sexe : Femelle
 porteeId : Portee11
 reserve : false
-option : false
+option : true
 vendu : false
 album : https://photos.app.goo.gl/9dXdSRPueM6dBrd37
 couleur : Noir et Blanc
