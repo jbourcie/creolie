@@ -12,7 +12,7 @@ sexe : Male
 porteeId : Portee10
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/Q1GZDfZAmcPfctLt8
 couleur : Blue Smoke
 name : Rainbow

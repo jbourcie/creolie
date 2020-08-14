@@ -12,7 +12,7 @@ sexe : Femelle
 porteeId : Portee11
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/s1Zd3R33RAdfj5qa8
 couleur : Black Silver Blotched Tabby et Blanc
 name : R'mione

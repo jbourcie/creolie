@@ -12,7 +12,7 @@ sexe : Femelle
 porteeId : Portee11
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/9dXdSRPueM6dBrd37
 couleur : Noir et Blanc
 name : Romy

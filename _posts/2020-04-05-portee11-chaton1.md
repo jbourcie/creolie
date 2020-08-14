@@ -12,7 +12,7 @@ sexe : Femelle
 porteeId : Portee11
 reserve : true
 option : true
-vendu : false
+vendu : true
 album : https://photos.app.goo.gl/dxqN3UrUY92FsuAa9
 couleur : Black Blotched Tabby
 name : Rebelle
