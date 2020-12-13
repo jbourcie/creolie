@@ -16,7 +16,7 @@ vendu : false
 album : https://photos.app.goo.gl/e9dwv4PTUw4JA8rw6
 couleur : Noir et Blanc
 name : Rafiki
-photo : portee12_1_1.jpg
+photo : portee12.jpg
 ---
 
 Rafiki est un adorable chaton noir et blanc est né le 06 Novembre 2020. Il est très sociable et vient facilement se coucher sur nous. Il est très joueur.
