@@ -6,7 +6,7 @@ date: 2020-06-11 08:00:00
 tags: Chaton
 pere : New York de Créolie
 mere : Lixy du Val des Vents
-naissance: 2020-06-11
+naissance: 2020-11-06
 photos: [portee12.jpg, portee12_1.jpg, portee12_2.jpg, portee12_3.jpg, portee12_4.jpg]
 sexe : Male
 porteeId : Portee12
