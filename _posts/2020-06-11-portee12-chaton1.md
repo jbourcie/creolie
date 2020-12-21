@@ -10,7 +10,7 @@ naissance: 2020-11-06
 photos: [portee12.jpg, portee12_1.jpg, portee12_2.jpg, portee12_3.jpg, portee12_4.jpg]
 sexe : Male
 porteeId : Portee12
-reserve : false
+reserve : true
 option : true
 vendu : false
 album : https://photos.app.goo.gl/e9dwv4PTUw4JA8rw6
