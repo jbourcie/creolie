@@ -16,7 +16,7 @@ vendu : false
 album : https://photos.app.goo.gl/pmN4xrxinhoejjvR7
 couleur : Noir et roux tortie
 name : A définir
-photo : portee15_3_3.jpg
+photo : portee15_3_4.jpg
 ---
 
 Une adorable petite minette couleur Noir et roux tortie est née le 8 juin 2021.
