@@ -8,7 +8,7 @@ pere : Pixel Kreiz Breizh
 mere : Pandora de Créolie
 naissance: 2021-06-08
 photos: [portee15_4_1.jpg, portee15_4_2.jpg, portee15_4_3.jpg, portee15_4_4.jpg, portee15_4_5.jpg, portee15_4_6.jpg, portee15_4_7.jpg ]
-sexe : male
+sexe : Male
 porteeId : Portee15
 reserve : false
 option : false

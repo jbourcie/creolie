@@ -10,9 +10,9 @@ naissance: 2020-12-18
 photos: [portee13_6.jpg, portee13_5.jpg, portee13_2.jpg, portee13_3.jpg, portee13_4.jpg, portee13_8.jpg ]
 sexe : Femelle
 porteeId : Portee13
-reserve : false
-option : false
-vendu : false
+reserve : true
+option : true
+vendu : true
 album : https://photos.app.goo.gl/VLgAycTbW3w8ZN3E6
 couleur : Crème
 name : R'Mionne
