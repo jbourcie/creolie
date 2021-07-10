@@ -9,13 +9,13 @@ layout: main
 		<section>
 			<div class="10u -1u">
 				<header class="major">
-					<h2>Portées du {{ page.naissance | date_to_string }}</h2>
+					<h2>Portée du {{ page.naissance | date_to_string }}</h2>
 				</header>
 				{% for post in site.categories.Chaton %}
 					{% if post.porteeId contains page.porteeId %}
 					<div class="row  no-collapse-1" >
 						<section class="5u">
-								<img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="100%">
+								<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/photos/{{ post.photo }}" class="img-circle" alt="" width="100%"></a>
 							</section>
 							<section class="5u">
 								<a href="{{ site.baseurl }}{{ post.url }}"><h2>Naissance : {{ post.naissance | date_to_string }}</h2></a>
@@ -58,7 +58,7 @@ layout: main
 					</header>
 					<div class="row no-collapse-1" >
 						<section class="5u">
-							<img src="{{ site.baseurl }}/photos/{{ page.photo }}" class="img-circle" alt="" width="100%">
+							<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/photos/{{ page.photo }}" class="img-circle" alt="" width="100%"></a>
 						</section>
 						<section class="5u">
 							<a href="{{ site.baseurl }}{{ page.url }}"><h2>Naissance : {{ page.naissance | date_to_string }}</h2></a>
