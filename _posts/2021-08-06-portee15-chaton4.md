@@ -10,12 +10,12 @@ naissance: 2021-06-08
 photos: [portee15_4_1.jpg, portee15_4_2.jpg, portee15_4_3.jpg, portee15_4_4.jpg, portee15_4_5.jpg, portee15_4_6.jpg, portee15_4_7.jpg ]
 sexe : Male
 porteeId : Portee15
-reserve : false
-option : false
+reserve : true
+option : true
 vendu : false
 album : https://photos.app.goo.gl/5NHeuWbQwLNW9WQS9
 couleur : Noir et blanc
-name : A définir
+name : Sandokan de Créolie
 photo : portee15_4_6.jpg
 ---
 

@@ -14,8 +14,8 @@ reserve : false
 option : false
 vendu : false
 album : https://photos.app.goo.gl/xfEYzH68SK5vKeU28
-couleur : Blue silver tortie
-name : A définir
+couleur : Blue silver tortie tabby
+name : Savanna
 photo : portee15_1_2.jpg
 ---
 
