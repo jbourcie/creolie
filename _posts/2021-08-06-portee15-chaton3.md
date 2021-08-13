@@ -16,7 +16,7 @@ vendu : false
 album : https://photos.app.goo.gl/pmN4xrxinhoejjvR7
 couleur : Noir et roux tortie
 name : Sequoïa de Créolie
-photo : portee15_3_4.jpg
+photo : portee15_3_1.jpg
 ---
 
 Une adorable petite minette couleur Noir et roux tortie est née le 8 juin 2021.

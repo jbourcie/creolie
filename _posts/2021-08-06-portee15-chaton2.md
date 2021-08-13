@@ -14,9 +14,9 @@ reserve : false
 option : false
 vendu : false
 album : https://photos.app.goo.gl/9wg5Fk2m7roCoaHe8
-couleur : Blue solid
-name : A définir
-photo : portee15_2_4.jpg
+couleur : Blue tabby
+name : Sakura de Créolie
+photo : portee15_2_1.jpg
 ---
 
 Une adorable petite minette couleur Blue solid est née le 8 juin 2021.

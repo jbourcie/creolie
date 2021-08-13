@@ -16,7 +16,7 @@ vendu : false
 album : https://photos.app.goo.gl/5NHeuWbQwLNW9WQS9
 couleur : Noir et blanc
 name : Sandokan de Créolie
-photo : portee15_4_6.jpg
+photo : portee15_4_1.jpg
 ---
 
 Une adorable petit minou couleur Noir et blanc  est née le 8 juin 2021.

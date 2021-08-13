@@ -15,8 +15,8 @@ option : false
 vendu : false
 album : https://photos.app.goo.gl/xfEYzH68SK5vKeU28
 couleur : Blue silver tortie tabby
-name : Savanna
-photo : portee15_1_2.jpg
+name : Savanna de Créolie
+photo : portee15_1_1.jpg
 ---
 
 Une adorable petite minette couleur Blue silver tortie est née le 8 juin 2021.
